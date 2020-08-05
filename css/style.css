@@ -10,19 +10,13 @@ ____________________________________________ */
 
 /* General Content
 ____________________________________________ */
-.main{ 
-    padding-top: 3%;
-}
-.row { 
-    padding: 2% 0; /*top-bottom = 2% | right-left = 0*/
-}
-.green{
-    background-color: #7accc8;
-}
+.main{ padding-top: 3%; }
+.row { padding: 2% 0; } /*top-bottom = 2% | right-left = 0*/
+.green{ background-color: #7accc8; }
 
 /* Typography
 ____________________________________________ */
-body{
+body{ 
     font-family: 'Abel', sans-serif; /*Sans-serif, the fallback font in case Abel doesn't work*/
     font-size: 1.5em;
     color: #000;
@@ -34,13 +28,8 @@ h2{
     margin: 0.67em;
 }
 
-h2.bio{
-    color: #3f7f7c;
-
-}
-p.bio{
-    color: #fff;
-}
+h2.bio{ color: #3f7f7c; }
+p.bio{ color: #fff; }
 
 /* Header & Navigation
 ____________________________________________ */
@@ -48,9 +37,32 @@ header.main_nav{
     padding: 1% 0; /*top-bottom = 1% | right-left = 0*/
     display: block;
 }
+.logo{
+    margin: 5% auto; /*This will center it  up*/
+    text-align: center;
+}
+.logo a{
+    font-size: 3em;
+    color: #fff;
+    text-decoration:  none;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    padding: 2px 10px 0 10px; /*Top-Right-Bottom-Left*/
+    margin: 0;
+}
+.logo a:hover{
+    background-color: #fff;
+    color: #7accc8;
+}
 
 /* Images & Media
 ____________________________________________ */
+img{ max-width: 100%; } /*Max width of the image is 100% of the container that is in*/
+img.avatar{
+    border-radius: 400px;
+    border: 5px solid #fff;
+}
+img:hover{ opacity: 0.8; }/*Give an effect to the image every time mouse move over*/
 
 /* Footer
 ____________________________________________ */
