@@ -22,6 +22,25 @@ ____________________________________________ */
 
 /* Typography
 ____________________________________________ */
+body{
+    font-family: 'Abel', sans-serif; /*Sans-serif, the fallback font in case Abel doesn't work*/
+    font-size: 1.5em;
+    color: #000;
+}
+
+h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    margin: 0.67em;
+}
+
+h2.bio{
+    color: #3f7f7c;
+
+}
+p.bio{
+    color: #fff;
+}
 
 /* Header & Navigation
 ____________________________________________ */
