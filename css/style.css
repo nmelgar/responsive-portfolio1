@@ -1,0 +1,41 @@
+/* Table of contents
+____________________________________________
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+____________________________________________ */
+
+/* General Content
+____________________________________________ */
+.main{ 
+    padding-top: 3%;
+}
+.row { 
+    padding: 2% 0; /*top-bottom = 2% | right-left = 0*/
+}
+.green{
+    background-color: #7accc8;
+}
+
+/* Typography
+____________________________________________ */
+
+/* Header & Navigation
+____________________________________________ */
+header.main_nav{
+    padding: 1% 0; /*top-bottom = 1% | right-left = 0*/
+    display: block;
+}
+
+/* Images & Media
+____________________________________________ */
+
+/* Footer
+____________________________________________ */
+
+/* Media Queries
+____________________________________________ */
+
