@@ -99,7 +99,7 @@ p.copyright{
 /* Media Queries
 ____________________________________________ */
 
-/* Larger than mobile */
+/*- Larger than mobile -*/
 @media (max-width: 479px) {
     .logo a{ font-size: 2em;}
     .main {padding-top: 15%;}
