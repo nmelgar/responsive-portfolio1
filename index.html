@@ -23,6 +23,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+  <!--Scripts
+  -------------------------------------------------- -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> //Not sure why it didn't work with other jquery versions
   
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -48,45 +53,45 @@
   <!--First row to hold images-->
   <div class="row">
     <div class="four columns portfolio">
-      <img src="images/backpacker.jpg" />
+        <a class="image-link" href="images/backpacker.jpg"><img src="images/backpacker.jpg" /></a>
 
     </div>
     <div class="four columns portfolio">
-      <img src="images/desert_cycle.jpg" />
+        <a class="image-link" href="images/desert_cycle.jpg"><img src="images/desert_cycle.jpg" /></a>
       
     </div>
     <div class="four columns portfolio">
-      <img src="images/italy_bikes.jpg" />
+        <a class="image-link" href="images/italy_bikes.jpg"><img src="images/italy_bikes.jpg" /></a>
       
     </div>
   </div>
   <!--Second row to hold images-->
   <div class="row">
     <div class="four columns portfolio">
-      <img src="images/on_safari.jpg" />
+        <a class="image-link" href="images/on_safari.jpg"><img src="images/on_safari.jpg" /></a>
 
     </div>
     <div class="four columns portfolio">
-      <img src="images/overlook_mtn.jpg" />
+        <a class="image-link" href="images/overlook_mtn.jpg"><img src="images/overlook_mtn.jpg" /></a>
       
     </div>
     <div class="four columns portfolio">
-      <img src="images/paris_couple.jpg" />
+        <a class="image-link" href="images/paris_couple.jpg"><img src="images/paris_couple.jpg" /></a>
       
     </div>
   </div>
   <!--Third row to hold images-->
   <div class="row" style="margin-bottom: 10%">
     <div class="four columns portfolio">
-      <img src="images/single_rider.jpg" />
+        <a class="image-link" href="images/single_rider.jpg"><img src="images/single_rider.jpg" /></a>
 
     </div>
     <div class="four columns portfolio">
-      <img src="images/sunset_beach.jpg" />
+        <a class="image-link" href="images/sunset_beach.jpg"><img src="images/sunset_beach.jpg" /></a>
       
     </div>
     <div class="four columns portfolio">
-      <img src="images/toes_sand.jpg" />
+        <a class="image-link" href="images/toes_sand.jpg"><img src="images/toes_sand.jpg" /></a>
       
     </div>
   </div>
@@ -129,5 +134,11 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function() {
+    $('.image-link').magnificPopup({type:'image'});
+});
+  </script>
 </body>
 </html>
